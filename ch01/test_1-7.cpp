@@ -8,12 +8,12 @@ using namespace std;
 
 int main() {
     
-    ifstream in_file("/home/cyg/cpptest/text.txt");
+    ifstream in_file("/home/cyg/cpptest/ch01/text.txt");
     if (!in_file) {
         cerr << "oops! unable to open input file\n";
         return -1;
     }
-    ofstream out_file("/home/cyg/cpptest/text.sort");
+    ofstream out_file("/home/cyg/cpptest/ch01/text.sort");
     if (!out_file) {
         cerr << "oops! unable to open output file\n";
         return -1;
